@@ -44,17 +44,38 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
 
+# GuessTheWord
+## Android Kotlin Bootcamp from Google Developer website
+### CODELAB: Android Kotlin Fundamentals:5.1 ViewModel - https://developer.android.com/codelabs/kotlin-android-training-view-model?index=..%2F..android-kotlin-fundamentals#0
 
-**What I learned:**</br>
-------------------
 
+#### **What I learned:**</br>
 - How to use the recommended Android app architecture.
 - How to use the Lifecycle, ViewModel, and ViewModelFactory classes in the app.
 - How to retain UI data through device-configuration changes.
 - What the factory method design pattern is and how to use it.
 - How to create a ViewModel object using the interface ViewModelProvider.Factory.
 
-**What I did:**</br>
----------------
+#### **What I did:**</br>
 - Add a ViewModel to the app, to save app's data so the data survives configuration changes.
 - Use ViewModelFactory and the factory-method design pattern to instantiate a ViewModel object with constructor parameters.
+
+
+------------------------------------------------------------
+
+### CODELAB: Android Kotlin Fundamentals: LiveData and LiveData observers - https://developer.android.com/codelabs/kotlin-android-training-live-data#0
+
+#### **What I learned:**</br>
+- What makes LiveData objects useful.
+- How to add LiveData to the data stored in a ViewModel.
+- When and how to use MutableLiveData.
+- How to add observer methods to observe changes in the LiveData.
+- How to encapsulate LiveData using a backing property.
+- How to communicate between a UI controller and its corresponding ViewModel.
+
+#### **What I did:**</br>
+- Use LiveData for the word and the score in the GuessTheWord app.
+- Add observers that notice when the word or the score changes.
+- Update the text views that display changed values.
+- Use the LiveData observer pattern to add a game-finished event.
+- Implement the Play Again button.
