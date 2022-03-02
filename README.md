@@ -43,3 +43,18 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
+
+
+**What I learned:**</br>
+------------------
+
+- How to use the recommended Android app architecture.
+- How to use the Lifecycle, ViewModel, and ViewModelFactory classes in the app.
+- How to retain UI data through device-configuration changes.
+- What the factory method design pattern is and how to use it.
+- How to create a ViewModel object using the interface ViewModelProvider.Factory.
+
+**What I did:**</br>
+---------------
+- Add a ViewModel to the app, to save app's data so the data survives configuration changes.
+- Use ViewModelFactory and the factory-method design pattern to instantiate a ViewModel object with constructor parameters.
