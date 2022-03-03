@@ -79,3 +79,21 @@ the License.
 - Update the text views that display changed values.
 - Use the LiveData observer pattern to add a game-finished event.
 - Implement the Play Again button.
+
+
+------------------------------------------------------------
+
+### CODELAB: Android Kotlin Fundamentals: Data binding with ViewModel and LiveData - https://developer.android.com/codelabs/kotlin-android-training-live-data-data-binding#0
+
+#### **What I learned:**</br>
+
+- How to use elements of the Data Binding Library.
+- How to integrate ViewModel with data binding.
+- How to integrate LiveData with data binding.
+- How to use listener bindings to replace the click listeners in a fragment.
+- How to add string formatting to data-binding expressions.
+
+#### **What I did:**</br>
+
+- The views in the GuessTheWord layouts communicate indirectly with ViewModel objects, using UI controllers (fragments) to relay information. In this codelab, I bound the app's views to ViewModel objects so that the views communicate directly with the ViewModel objects.
+- I changed the app to use LiveData as the data-binding source. After this change, the LiveData objects notify the UI about changes in the data, and the LiveData observer methods are no longer needed.
