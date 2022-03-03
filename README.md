@@ -97,3 +97,16 @@ the License.
 
 - The views in the GuessTheWord layouts communicate indirectly with ViewModel objects, using UI controllers (fragments) to relay information. In this codelab, I bound the app's views to ViewModel objects so that the views communicate directly with the ViewModel objects.
 - I changed the app to use LiveData as the data-binding source. After this change, the LiveData objects notify the UI about changes in the data, and the LiveData observer methods are no longer needed.
+
+------------------------------------------------------------
+
+### CODELAB: Android Kotlin Fundamentals:5.4 LiveData transformations - https://developer.android.com/codelabs/kotlin-android-training-live-data-transformations#0
+
+#### **What I learned:**</br>
+
+- How to use Transformations with LiveData
+
+#### **What I did:**</br>
+
+- Add a timer to end the game.
+- Use Transformations.map() to transform one LiveData into another.
